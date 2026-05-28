@@ -73,6 +73,9 @@ How can we design and implement intuitive, efficient and correct concurrent prog
 
 **********************************************
 # Papers
+- Inductive Deductive Synthesis: Enabling AI to Generate Formally Verified Systems
+S. Agarwal, A. Krentsel, S. Liu, M. Cemri, A. Cheng, R. Meng, T. Pfister, C. Li, S. Ratnasamy, A. Parameswaran, M. Zaharia, I. Stoica, M. Lesani
+[arXiv](https://arxiv.org/abs/2605.23109)
 
 - Frashokereti: Non-aborting Optimistically Replicated Objects
 OOPSLA '26 (ACM SIGPLAN conference on Object-oriented Programming, Systems, Languages, and Applications)
@@ -342,7 +345,7 @@ Primary publications: [CAV ’20](companion/cav20),  [S&P ’22](companion/sp22
 
 <!-- <ul class="air"> -->
 Eric Chan, PhD student
-Primary publications: [PODC ’21](companion/podc21),  [CSF '23](companion/csf23)
+Primary publications: [PODC ’21](companion/podc21),  [CSF '23](companion/csf23),  [OOPSLA'26](companion/oopsla26/)
 <!-- </ul> -->
 
 ![](images/students/JavadS.jpg)
