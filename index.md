@@ -77,6 +77,10 @@ How can we design and implement intuitive, efficient and correct concurrent prog
 S. Agarwal, A. Krentsel, S. Liu, M. Cemri, A. Cheng, R. Meng, T. Pfister, C. Li, S. Ratnasamy, A. Parameswaran, M. Zaharia, I. Stoica, M. Lesani
 [arXiv](https://arxiv.org/abs/2605.23109)
 
+- SafarDB: FPGA-Accelerated Distributed Transactions via Replicated Data Types
+Javad Saberlatibari, Prithviraj Yuvaraj, Philip Brisk, Mohammad Sadoghi, Mohsen Lesani
+[arXiv](https://arxiv.org/abs/2603.08003)
+
 - Frashokereti: Non-aborting Optimistically Replicated Objects
 OOPSLA '26 (ACM SIGPLAN conference on Object-oriented Programming, Systems, Languages, and Applications)
 Eric Chan, Javad Saberlatibari, Mohsen Lesani
