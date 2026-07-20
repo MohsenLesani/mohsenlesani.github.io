@@ -24,7 +24,7 @@ Contact: mlesani AT ucsc.edu
 I have positions for motivated students. I will be glad to hear about your interests and accomplishments.
 </p>
 
-I am an associate professor at the Computer Science and Engineering Department of the University of California, Santa Cruz. I was a postdoc at MIT, obtained my PhD from UCLA, my MS in artificial intelligence from Sharif University of Technology and my BS in software engineering from University of Tehran. My research interests are reliability and security of software systems especially concurrent and distributed systems. Our recent focus is on secure replicated systems and distributed machine learning. I received the NSF CAREER award in 2020 and DARPA YFA award in 2022. My research has been recognized as SIGPLAN Research Highlight in 2019, received the distinguished paper award at OOPSLA 2018 and has been supported by multiple NSF grants.
+I am an associate professor at the Computer Science and Engineering Department of the University of California, Santa Cruz. I was a postdoc at MIT, obtained my PhD from UCLA, my MS in artificial intelligence from Sharif University of Technology and my BS in software engineering from University of Tehran. My research interests are reliability and security of software systems especially concurrent and distributed systems. Our recent focus is on secure replicated systems and AI-assisted verified system generation. I received the NSF CAREER award in 2020 and DARPA YFA award in 2022. My research has been recognized as SIGPLAN Research Highlight in 2019, received the distinguished paper award at OOPSLA 2018 and has been supported by multiple NSF grants.
 
 **********************************************
 # Projects
@@ -82,7 +82,8 @@ S. Agarwal, A. Krentsel, S. Liu, M. Cemri, A. Cheng, R. Meng, T. Pfister, C. Li,
 [arXiv](https://arxiv.org/abs/2605.23109)
 
 - SafarDB: FPGA-Accelerated Distributed Transactions via Replicated Data Types
-Javad Saberlatibari, Prithviraj Yuvaraj, Philip Brisk, Mohammad Sadoghi, Mohsen Lesani
+Javad Saberlatibari, Prithviraj Yuvaraj, Philip Brisk, Mohammad Sadoghi, Mohsen
+Lesani
 [arXiv](https://arxiv.org/abs/2603.08003)
 
 - Frashokereti: Non-aborting Optimistically Replicated Objects
