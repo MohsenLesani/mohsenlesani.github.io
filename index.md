@@ -31,6 +31,10 @@ I am an associate professor at the Computer Science and Engineering Department o
 
 Here are some of our current and past projects: 
 
+- **LLM-assisted Verified System Generation**
+Given high-level system specifications including safety, liveness, and performance, can we generate both efficient systems and machine-checkable proofs of their correctness?
+[arXiv](https://arxiv.org/abs/2605.23109)
+
 - **Resilient and secure distributed systems**
 Given resiliency requirements (confidentiality, integrity and especially availability policies) for an online service, how can we automatically partition, place and replicate it to ensure resiliency?
 [S&P'22](companion/sp22/)
@@ -41,7 +45,7 @@ How can we replicate online services on untrusted, heterogeneous, and dynamic ho
 
 - **Automatic analysis and synthesis of replicated objects**
 Given a data type or a database and its integrity properties, how can we automatically decide the optimum hybrid consistency, and synthesize a custom replicated store that guarantees convergence and integrity? How can we accelerate hybrid consistency on message passing, RDMA and FPGA networks?
-[POPL'19](companion/popl19/),  [CAV'20](companion/cav20/),  [PLDI'22](companion/pldi22/),  [OOPSLA'25](companion/oopsla25/),  [OOPSLA'26](companion/oopsla26/)
+[POPL'19](companion/popl19/),  [CAV'20](companion/cav20/),  [PLDI'22](companion/pldi22/),  [OOPSLA'25](companion/oopsla25/),  [OOPSLA'26](companion/oopsla26/),  [arXiv](https://arxiv.org/abs/2603.08003)
 
 - **Verification of distributed systems**
 How can we modularly build a certified stack of distributed components?
@@ -89,6 +93,7 @@ Eric Chan, Javad Saberlatibari, Mohsen Lesani
 - Satrapy: From Abstract to Practical Consensus for Heterogeneous Quorum Systems
 Distributed Computing Journal 2026
 Xiao Li, Eric Chan, Mohsen Lesani
+[Paper](companion/dc26/DC26.pdf), [BibTex](companion/dc26/paper.bib), [More](companion/dc26/index.html)
 
 - Hambazi: Spatial Coordination Synthesis for Augmented Reality
 OOPSLA '25 (ACM SIGPLAN conference on Object-oriented Programming, Systems, Languages, and Applications)
