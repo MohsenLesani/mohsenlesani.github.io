@@ -41,7 +41,7 @@ Given resiliency requirements (confidentiality, integrity and especially availab
 
 - **Heterogeneous and reconfigurable secure distributed systems**
 How can we replicate online services on untrusted, heterogeneous, and dynamic hosts?
-[DISC'23](companion/disc23/),  [DISC'24](companion/disc24/),  [ICDE'25](companion/icde25/),  DC'26
+[DISC'23](companion/disc23/),  [DISC'24](companion/disc24/),  [ICDE'25](companion/icde25/),  [DC'26](companion/dc26/index.html)
 
 - **Automatic analysis and synthesis of replicated objects**
 Given a data type or a database and its integrity properties, how can we automatically decide the optimum hybrid consistency, and synthesize a custom replicated store that guarantees convergence and integrity? How can we accelerate hybrid consistency on message passing, RDMA and FPGA networks?
