@@ -1,6 +1,8 @@
 #!/bin/bash
 
-find . -type f -name "*.md" -exec sh -c 'echo "Processing $1"; ~/Prog/Command/md2html "$1"' _ {} \;
+# Convert every markdown page under the current folder.
+# md2html reads its input and looks for the style folder relative to the
+# current folder, so enter each page's folder before converting it. Each
+# find -exec runs in its own shell, so the cd does not leak between pages.
 
-
-# find . -type f -name "*.md" -exec echo; ~/Prog/Command/m2h {} \;
+find . -type f -name "*.md" -exec sh -c 'echo "Processing $1"; cd "$(dirname "$1")" && ~/Prog/Command/md2html "$(basename "$1")"' _ {} \;

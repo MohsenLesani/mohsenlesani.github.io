@@ -37,43 +37,43 @@ Given high-level system specifications including safety, liveness, and performan
 
 - **Resilient and secure distributed systems**
 Given resiliency requirements (confidentiality, integrity and especially availability policies) for an online service, how can we automatically partition, place and replicate it to ensure resiliency?
-[S&P'22](companion/sp22/)
+[S&P'22](companion/sp22/index.html)
 
 - **Heterogeneous and reconfigurable secure distributed systems**
 How can we replicate online services on untrusted, heterogeneous, and dynamic hosts?
-[DISC'23](companion/disc23/),  [DISC'24](companion/disc24/),  [ICDE'25](companion/icde25/),  [DC'26](companion/dc26/index.html)
+[DISC'23](companion/disc23/index.html),  [DISC'24](companion/disc24/index.html),  [ICDE'25](companion/icde25/index.html),  [DC'26](companion/dc26/index.html)
 
 - **Automatic analysis and synthesis of replicated objects**
 Given a data type or a database and its integrity properties, how can we automatically decide the optimum hybrid consistency, and synthesize a custom replicated store that guarantees convergence and integrity? How can we accelerate hybrid consistency on message passing, RDMA and FPGA networks?
-[POPL'19](companion/popl19/),  [CAV'20](companion/cav20/),  [PLDI'22](companion/pldi22/),  [OOPSLA'25](companion/oopsla25/),  [OOPSLA'26](companion/oopsla26/),  [arXiv](https://arxiv.org/abs/2603.08003)
+[POPL'19](companion/popl19/index.html),  [CAV'20](companion/cav20/index.html),  [PLDI'22](companion/pldi22/index.html),  [OOPSLA'25](companion/oopsla25/index.html),  [OOPSLA'26](companion/oopsla26/index.html),  [arXiv](https://arxiv.org/abs/2603.08003)
 
 - **Verification of distributed systems**
 How can we modularly build a certified stack of distributed components?
-[POPL'16](companion/popl16/),  [ICFP'20](companion/icfp20/)
+[POPL'16](companion/popl16/index.html),  [ICFP'20](companion/icfp20/index.html)
 
 - **Data analytics**
 Given high-level analytics queries in domain specific languages, how can we automatically optimize and synthesize efficient parallel and distributed workflows?
-[ICFP'21](companion/icfp21/)
+[ICFP'21](companion/icfp21/index.html)
 
 - **Secure exchange**
 How can we securely and efficiently execute transactions across multiple blockchains?
-[ICBC'20](companion/icbc20/),  [PODC'21](companion/podc21/),  [CSF'23](companion/csf23/)
+[ICBC'20](companion/icbc20/index.html),  [PODC'21](companion/podc21/index.html),  [CSF'23](companion/csf23/index.html)
 
 - **Machine learning for performance models**
 Can we learn performance characteristics of data structures and leverage it to synthesize efficient data structures?
-[MAPL'20](companion/mapl20/)
+[MAPL'20](companion/mapl20/index.html)
 
 - **Domain-specific languages and type systems**
 Can the safety guarantees of type systems carry over to safety of lab-on-a-chip assays?
-[OOPSLA'18](companion/oopsla18/),  [CACM'21](companion/cacm21/CACM21.pdf)
+[OOPSLA'18](companion/oopsla18/index.html),  [CACM'21](companion/cacm21/CACM21.pdf)
 
 - **Automatic fence insertion for concurrent systems**
 Given high-level required orders between instructions of the concurrent program in each thread, can we optimize and automate the subtle task of fence placement?
-[OOPSLA'15](companion/oopsla15/),  [PODC'17](companion/podc17/),  [DISC'19](companion/disc19/)
+[OOPSLA'15](companion/oopsla15/index.html),  [PODC'17](companion/podc17/index.html),  [DISC'19](companion/disc19/index.html)
 
 - **Concurrency programming models, testing and verification**
 How can we design and implement intuitive, efficient and correct concurrent programming models, and data structures?
-[PPoPP'11](downloads/Papers/PPoPP11.pdf),  [CONCUR'12](companion/concur12/index.html),  [DISC'13](companion/disc13/index.html),  [DISC'14](companion/disc14/),  [CAV'14](companion/cav14/),  [NFM'19](companion/nfm19/),  [OOPSLA'22](companion/oopsla22/)
+[PPoPP'11](downloads/Papers/PPoPP11.pdf),  [CONCUR'12](companion/concur12/index.html),  [DISC'13](companion/disc13/index.html),  [DISC'14](companion/disc14/index.html),  [CAV'14](companion/cav14/index.html),  [NFM'19](companion/nfm19/index.html),  [OOPSLA'22](companion/oopsla22/index.html)
 
 **********************************************
 # Papers
@@ -114,47 +114,47 @@ J. Arora, S. Lu, D. Jain, T. Xu, F Houshmand, P. M. Phothilimthana, M. Lesani, P
 - BA: Reconfigurable Heterogeneous Quorum Systems (short paper)
 DISC '24 (The International Symposium on Distributed Computing)
 Xiao Li, Mohsen Lesani
-[Paper](companion/disc24/DISC24Full.pdf), [More](companion/disc24/)
+[Paper](companion/disc24/DISC24Full.pdf), [More](companion/disc24/index.html)
 
 - Vulnerability Flow Type Systems
 LangSec '24 (Language-theoretic Security and Applications Workshop at the IEEE Security & Privacy Symposium 2024)
 Mohsen Lesani
-[Paper](companion/langsec24/LangSec24.pdf), [More](companion/langsec24/)
+[Paper](companion/langsec24/LangSec24.pdf), [More](companion/langsec24/index.html)
 
 - Quorum Subsumption for Heterogeneous Quorum Systems
 DISC '23 (The International Symposium on Distributed Computing)
 Xiao Li, Eric Chan, Mohsen Lesani
-[Paper](companion/disc23/DISC23.pdf), [More](companion/disc23/)
+[Paper](companion/disc23/DISC23.pdf), [More](companion/disc23/index.html)
 
 - Cross-chain Swaps with Preferences
 CSF '23 (IEEE Computer Security Foundations Symposium)
 Eric Chan, Marek Chrobak, Mohsen Lesani
-[Paper](companion/csf23/CSF23.pdf), [More](companion/csf23/)
+[Paper](companion/csf23/CSF23.pdf), [More](companion/csf23/index.html)
 
 - Hamband: RDMA Replicated Data Types
 PLDI '22 (ACM SIGPLAN Conference on Programming Language Design and Implementation)
 Farzin Houshmand, Javad Saberlatibari, Mohsen Lesani
-[Paper](companion/pldi22/PLDI22.pdf), [More](companion/pldi22/)
+[Paper](companion/pldi22/PLDI22.pdf), [More](companion/pldi22/index.html)
 
 - C4: Verified Transactional Objects
 OOPSLA '22 (ACM SIGPLAN conference on Object-oriented Programming, Systems, Languages, and Applications)
 M. Lesani, L. Xia, A. Kaseorg, C. Bell, A. Chlipala, B. Pierce, S. Zdancewic
-[Paper](companion/oopsla22/OOPSLA22.pdf), [More](companion/oopsla22/)
+[Paper](companion/oopsla22/OOPSLA22.pdf), [More](companion/oopsla22/index.html)
 
 - Hamraz: Resilient Partitioning and Replication
 S&P '22 (IEEE Symposium on Security and Privacy)
 Xiao Li, Farzin Houshmand, Mohsen Lesani
-[Paper](companion/sp22/SP22.pdf), [More](companion/sp22/)
+[Paper](companion/sp22/SP22.pdf), [More](companion/sp22/index.html)
 
 - Grafs: Declarative Graph Analytics
 ICFP '21 (ACM SIGPLAN International Conference on Functional Programming)
 Farzin Houshmand, Mohsen Lesani, Keval Vora
-[Paper](companion/icfp21/ICFP21.pdf), [More](companion/icfp21/)
+[Paper](companion/icfp21/ICFP21.pdf), [More](companion/icfp21/index.html)
 
 - Brief Announcement: Brokering with Hashed Timelock Contracts is NP-Hard
 PODC '21 (ACM Symposium on Principles of Distributed Computing)
 Eric Chan, Mohsen Lesani
-[Paper](companion/podc21/PODC21.pdf), [More](companion/podc21/)
+[Paper](companion/podc21/PODC21.pdf), [More](companion/podc21/index.html)
 
 - BioScript: programming safe chemistry on laboratories-on-a-chip
 CACM '21 (Communications of the ACM 64, 2, February 2021) 
@@ -164,42 +164,42 @@ Jason Ott, Tyson Loveless, Chris Curtis, Mohsen Lesani, and Philip Brisk. 2021.
 - TLC: Temporal Logic of Distributed Components
 ICFP '20 (ACM SIGPLAN International Conference on Functional Programming)
 Jeremiah Griffin, Mohsen Lesani, Narges Shadab, Xizhe Yin
-[Paper](companion/icfp20/ICFP20.pdf), [More](companion/icfp20/)
+[Paper](companion/icfp20/ICFP20.pdf), [More](companion/icfp20/index.html)
 
 - Hampa: Solver-aided Recency-Aware Replication
 CAV '20 (International Conference on Computer-Aided Verification)
 Xiao Li, Farzin Houshmand, Mohsen Lesani
-[Paper](companion/cav20/CAV20.pdf), [More](companion/cav20/)
+[Paper](companion/cav20/CAV20.pdf), [More](companion/cav20/index.html)
 
 - UBITect: A Precise and Scalable Method to Detect Use-Before-Initialization bugs in Linux Kernel
 ESEC/FSE '20 (The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering)
 Y. Zhai, Y. Hao, H. Zhang, D. Wang, C. Song, Z. Qian, M. Lesani, S. Krishnamurthy, P. Yu
-[Paper](companion/fse20/FSE20.pdf), [More](companion/fse20/)
+[Paper](companion/fse20/FSE20.pdf), [More](companion/fse20/index.html)
 
 - Cross-Chain Transactions
 ICBC '20 (IEEE International Conference on Blockchain and Cryptocurrency)
 Narges Shadab, Farzin Houshmand, Mohsen Lesani
-[Paper](companion/icbc20/ICBC20.pdf), [More](companion/icbc20/)
+[Paper](companion/icbc20/ICBC20.pdf), [More](companion/icbc20/index.html)
 
 - Learning Quantitative Representation Synthesis
 MAPL '20 (ACM SIGPLAN Machine Learning and Programming Languages Workshop)
 Mayur Patil, Farzin Houshmand, Mohsen Lesani
-[Paper](companion/mapl20/MAPL20.pdf), [More](companion/mapl20/)
+[Paper](companion/mapl20/MAPL20.pdf), [More](companion/mapl20/index.html)
 
 - Hamsaz: Replication Coordination Analysis and Synthesis
 POPL '19 (ACM SIGPLAN Symposium on Principles of Programming Languages)
 Farzin Houshmand, Mohsen Lesani
-[Paper](companion/popl19/POPL19.pdf), [More](companion/popl19/)
+[Paper](companion/popl19/POPL19.pdf), [More](companion/popl19/index.html)
 
 - Polynomial-time Fence Insertion For Structured Programs
 DISC '19 (The International Symposium on Distributed Computing)
 Mohammad Taheri, Arash Pourdamghani, Mohsen Lesani
-[Paper](companion/disc19/DISC19.pdf), [More](companion/disc19/)
+[Paper](companion/disc19/DISC19.pdf), [More](companion/disc19/index.html)
 
 - Transaction Protocol Verification with Labeled Synchronization Logic
 NFM '19 (NASA Formal Methods Symposium)
 Mohsen Lesani
-[Paper](companion/nfm19/FullPaper.pdf), [More](companion/nfm19/)
+[Paper](companion/nfm19/FullPaper.pdf), [More](companion/nfm19/index.html)
 
 - BioScript: Programming Safe Chemistry of Laboratories-on-a-Chip
 OOPSLA '18 (ACM SIGPLAN conference on Object-oriented Programming, Systems, Languages, and Applications)
@@ -207,44 +207,44 @@ Distinguished paper award
 SIGPLAN Research Highlight 2019
 Invited to Communications of ACM
 Jason Ott, Chris Curtis, Tyson Loveless, Mohsen Lesani, Philip Brisk
-[Paper](companion/oopsla18/OOPSLA18.pdf), [More](companion/oopsla18/)
+[Paper](companion/oopsla18/OOPSLA18.pdf), [More](companion/oopsla18/index.html)
 
 - Brief Announcement: Fence Insertion for Straight-line Programs is in P
 PODC '17 (ACM Symposium on Principles of Distributed Computing)
 Mohsen Lesani
-[Paper](companion/podc17/PODC17.pdf), [More](companion/podc17/)
+[Paper](companion/podc17/PODC17.pdf), [More](companion/podc17/index.html)
 
 - Chapar: Certified Causally Consistent Distributed Key-Value Stores
 POPL '16 (ACM SIGPLAN Symposium on Principles of Programming Languages)
 Mohsen Lesani, Christian J. Bell, Adam Chlipala
-[Paper](companion/popl16/POPL16.pdf), [More](companion/popl16/)
+[Paper](companion/popl16/POPL16.pdf), [More](companion/popl16/index.html)
 
 - Declarative Fence Insertion
 OOPSLA '15 (ACM SIGPLAN conference on Object-oriented
 Programming, Systems, Languages, and Applications)
 John Bender, Mohsen Lesani, Jens Palsberg
-[Paper](companion/oopsla15/OOPSLA15.pdf), [More](companion/oopsla15/)
+[Paper](companion/oopsla15/OOPSLA15.pdf), [More](companion/oopsla15/index.html)
 
 - AtomChase: Directed Search towards Atomicity Violations
 ISSRE '15 (IEEE International Symposium on Software Reliability Engineering)
 Mahdi Eslamimehr, Mohsen Lesani
 Best paper award
-[More](companion/issre15/)
+[More](companion/issre15/index.html)
 
 - Decomposing Opacity
 DISC '14 (International Symposium on DIStributed Computing), WTTM '13
 Mohsen Lesani, Jens Palsberg
-[Paper](companion/disc14/DISC14.pdf), [More](companion/disc14/)
+[Paper](companion/disc14/DISC14.pdf), [More](companion/disc14/index.html)
 
 - Automatic Atomicity Verification for Clients of Concurrent Data Structures
 CAV '14 (International Conference on Computer Aided Verification)
 Mohsen Lesani, Todd Millstein, Jens Palsberg
-[Paper](companion/cav14/CAV14.pdf), [More](companion/cav14/)
+[Paper](companion/cav14/CAV14.pdf), [More](companion/cav14/index.html)
 
 - On the Correctness of Transactional Memory Algorithms
 PhD Dissertation
 Mohsen Lesani
-[Dissertation](companion/dissertation/Dissertation.pdf), [More](companion/dissertation/)
+[Dissertation](companion/dissertation/Dissertation.pdf), [More](companion/dissertation/index.html)
 
 - MrCrypt: Static Analysis for Secure Cloud Computations
 OOPSLA '13 (ACM SIGPLAN conference on Object-oriented Programming, Systems, Languages, and Applications)
@@ -269,7 +269,7 @@ Mohsen Lesani, Jens Palsberg
 - Semantics-preserving Sharing Actors
 AGERE '13 (ACM Workshop on Programming based on Actors, Agents, and Decentralized Control)
 Mohsen Lesani, Antonio Lain
-[Paper](companion/agere13/Paper.pdf), [More](companion/agere13/)
+[Paper](companion/agere13/Paper.pdf), [More](companion/agere13/index.html)
 
 - Specifying Transactional Memories with Nontransactional Operations
 WTTM '13  (Workshop on the Theory of Transactional Memory)
@@ -350,28 +350,28 @@ We work together at the Safe and Secure Software (S3) lab.
 
 <!-- <ul class="air"> -->
 [Xiao Li](https://xiaoli0614.github.io/), PhD student
-Primary publications: [CAV ’20](companion/cav20),  [S&P ’22](companion/sp22),  [DISC '23](companion/disc23/),  [DISC '24](companion/disc24/)
+Primary publications: [CAV ’20](companion/cav20/index.html),  [S&P ’22](companion/sp22/index.html),  [DISC '23](companion/disc23/index.html),  [DISC '24](companion/disc24/index.html)
 <!-- </ul> -->
 
 ![](images/students/EricS.jpg)
 
 <!-- <ul class="air"> -->
 Eric Chan, PhD student
-Primary publications: [PODC ’21](companion/podc21),  [CSF '23](companion/csf23),  [OOPSLA'26](companion/oopsla26/)
+Primary publications: [PODC ’21](companion/podc21/index.html),  [CSF '23](companion/csf23/index.html),  [OOPSLA'26](companion/oopsla26/index.html)
 <!-- </ul> -->
 
 ![](images/students/JavadS.jpg)
 
 <!-- <ul class="air"> -->
 [Javad Saber-Latibari](https://www.cs.ucr.edu/%7Ejsabe004/), PhD student
-Primary publications: [PLDI ’22](companion/pldi22)
+Primary publications: [PLDI ’22](companion/pldi22/index.html)
 <!-- </ul> -->
 
 ![](images/students/TejasS.jpg "Tejas")
 
 <!-- <ul class="air"> -->
 Tejas Mane, PhD student
-Primary publications: [ICDE '25](companion/icde25/)
+Primary publications: [ICDE '25](companion/icde25/index.html)
 <!-- </ul> -->
 
 **********************************************
@@ -380,7 +380,7 @@ Primary publications: [ICDE '25](companion/icde25/)
 - I am from the beautiful city of Kerman where the Prince's Garden [1](images/PrinceGarden.jpg), [2](images/PrinceGarden2.jpg) is located.
 - My [PhD hooding](https://drive.google.com/file/d/1vQg0X31CxArZsDSt-X2sL2VJDcyuQ-0I/view?usp=sharing) at UCLA.
 - I tried acting and played John J. Astor in Titanic the musical. Can you find me in the [cast](images/Titanic.jpg)?
-- I try to keep the [positive feedbacks](companion/reviews/) that we get.
+- I try to keep the [positive feedbacks](companion/reviews/index.html) that we get.
 - The [names](names.html) of our papers.
 
 **********************************************

@@ -1,6 +1,4 @@
-<div class="right"> 
- | [Home](../../index.html) | [Projects](../../index.html#projects) | [Papers](../../index.html#papers) |
-</div>
+<div class="right"> |&nbsp; [Home](../../index.html) &nbsp;|&nbsp; [Projects](../../index.html#projects) &nbsp;|&nbsp; [Papers](../../index.html#papers) &nbsp;| </div>
 
 **************************************************
 <ul class="air">
