@@ -303,8 +303,10 @@ Ali Akhavan Bitaghsir, Amir Moghimi, Mohsen Lesani, Mohammad Mehdi Keramati, Maj
 # Teaching
 
 UCSC
-   [CSE 232: Distributed Systems](https://mohsenlesani.github.io/slugcse232/), S'25
-   [CSE 113: Parallel and Concurrent Programming](https://mohsenlesani.github.io/slugcse113/), F'24
+   [CSE 232: Distributed Systems](https://mohsenlesani.github.io/slugcse232/),
+<!--    S'25 -->
+   [CSE 113: Parallel and Concurrent Programming](https://mohsenlesani.github.io/slugcse113/)
+<!--    F'24 -->
 
 UCR
    CS 160: Concurrent Programming and Parallel Systems, F'22
