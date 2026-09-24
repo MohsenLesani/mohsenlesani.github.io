@@ -77,14 +77,15 @@ How can we design and implement intuitive, efficient and correct concurrent prog
 
 **********************************************
 # Papers
-- Inductive Deductive Synthesis: Enabling AI to Generate Formally Verified Systems
-S. Agarwal, A. Krentsel, S. Liu, M. Cemri, A. Cheng, R. Meng, T. Pfister, C. Li, S. Ratnasamy, A. Parameswaran, M. Zaharia, I. Stoica, M. Lesani
-[arXiv](https://arxiv.org/abs/2605.23109)
-
 - SafarDB: FPGA-Accelerated Distributed Transactions via Replicated Data Types
 Javad Saberlatibari, Prithviraj Yuvaraj, Philip Brisk, Mohammad Sadoghi, Mohsen
 Lesani
 [arXiv](https://arxiv.org/abs/2603.08003)
+
+- Inductive Deductive Synthesis: Enabling AI to Generate Formally Verified Systems
+S. Agarwal, A. Krentsel, S. Liu, M. Cemri, A. Cheng, R. Meng, T. Pfister, C. Li, S. Ratnasamy, A. Parameswaran, M. Zaharia, I. Stoica, M. Lesani
+NeurIPS '26 oral (Neural Information Processing Systems)
+[Paper](https://arxiv.org/abs/2605.23109)
 
 - Frashokereti: Non-aborting Optimistically Replicated Objects
 OOPSLA '26 (ACM SIGPLAN conference on Object-oriented Programming, Systems, Languages, and Applications)
@@ -384,61 +385,3 @@ Primary publications: [ICDE '25](companion/icde25/index.html)
 - The [names](names.html) of our papers.
 
 **********************************************
-
-<!-- ---------------------------------------------------------------------- -->
-<!-- Markdown notes -->
-
-<!-- 
-To see press html, ctrl+alt+o.
--->
-
-<!-- To write numbered lists -->
-<!--
-1. first item
-   1. first item first
-   2. first item second
-2. second item
--->
-
-<!-- To write bullet lists: --> 
-<!--
-- item
-   - inner item
-   - inner item second
-- item second
--->
-
-<!-- To write lists without bullets: --> 
-<!--
-<ul class="air">
-- item
-   - inner item
-   - inner item second
-- item second
-</ul>
--->
-
-
-<!-- To write in green color -->
-<!--
-<p class="emph">
-Text
-</p>
--->
-
-<!-- To write with fancy font -->
-<!--
-<p class="fancy">
-Text
-</p>
--->
-
-<!-- To right-align -->
-<!--
-<div class="right"> 
-Text
-</div>
--->
-
-<!-- ---------------------------------------------------------------------- -->
-
