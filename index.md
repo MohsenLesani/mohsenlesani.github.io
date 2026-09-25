@@ -33,7 +33,7 @@ Here are some of our current and past projects:
 
 - **LLM-assisted Verified System Generation**
 Given high-level system specifications including safety, liveness, and performance, can we generate both efficient systems and machine-checkable proofs of their correctness?
-[arXiv](https://arxiv.org/abs/2605.23109)
+[NeurIPS'26](https://arxiv.org/abs/2605.23109)
 
 - **Resilient and secure distributed systems**
 Given resiliency requirements (confidentiality, integrity and especially availability policies) for an online service, how can we automatically partition, place and replicate it to ensure resiliency?
