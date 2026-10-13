@@ -84,7 +84,8 @@ Lesani
 
 - Inductive Deductive Synthesis: Enabling AI to Generate Formally Verified Systems
 S. Agarwal, A. Krentsel, S. Liu, M. Cemri, A. Cheng, R. Meng, T. Pfister, C. Li, S. Ratnasamy, A. Parameswaran, M. Zaharia, I. Stoica, M. Lesani
-NeurIPS '26 oral (Neural Information Processing Systems)
+NeurIPS '26 (Neural Information Processing Systems)
+Selected for oral presentation
 [Paper](https://arxiv.org/abs/2605.23109)
 
 - Frashokereti: Non-aborting Optimistically Replicated Objects
