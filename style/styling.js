@@ -58,3 +58,20 @@ document.addEventListener("DOMContentLoaded", () => {
     div.appendChild(btn);
   });
 });
+
+// Show an image marked with the class "actualsize" at its actual size: one
+// image pixel per screen pixel. In markdown: ![](photo.jpg){.actualsize}
+// A browser reads image pixels as CSS pixels, so on a display with scale 2 a
+// photo is drawn twice as wide as its pixel count. Dividing by
+// devicePixelRatio undoes that. The max-width in styling.css still caps the
+// result. Unmarked images are left alone.
+document.addEventListener("DOMContentLoaded", () => {
+  const fit = img => {
+    if (!img.naturalWidth) return;
+    img.style.width = (img.naturalWidth / window.devicePixelRatio) + "px";
+  };
+  document.querySelectorAll("img.actualsize").forEach(img => {
+    if (img.complete) fit(img);
+    else img.addEventListener("load", () => fit(img), { once: true });
+  });
+});

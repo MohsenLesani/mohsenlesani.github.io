@@ -11,7 +11,7 @@ title: "Mohsen Lesani"
 
 
 <!-- ![](images/MohsenSC.jpg) -->
-![](images/Mohsen.jpg)
+![](images/MohsenLesani.jpg){.actualsize}
 
 Mohsen Lesani
 [Associate Professor](https://campusdirectory.ucsc.edu/cd_detail?uid=mlesani)
